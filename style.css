@@ -19,48 +19,61 @@ body {
 }
 
 .controls {
-  margin-top: 60px;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .controls .controls__range {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .controls .control-btn {
-  padding-bottom: 25px;
-}
-
-button {
-  all: unset;
-  background-color: white;
-  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-  cursor: pointer;
-  padding: 5px 0;
-  width: 80px;
-  text-align: center;
-  border-radius: 4px;
-  color: rgba(0, 0, 0, 0.65);
-  border: 1.5px solid rgba(0, 0, 0, 0.2);
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 13px;
+  padding-bottom: 10px;
 }
 
 button:active {
   transform: scale(0.95);
 }
 
+.button {
+    background-color: #e84393; 
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+  
+.button1 {
+    background-color: transparent; 
+    color: #e84393; 
+    border: 2px solid #e84393;
+}
+  
+.button1:hover {
+    background-color: #e84393;
+    color: white;
+}
+
+
 .controls .controls__colors {
   display: flex;
 }
 
 .controls__colors .controls__color {
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin: 4px 2px;
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
